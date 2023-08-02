@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Regular.woff2') format('woff2'),
+        url('Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Light.woff2') format('woff2'),
+        url('Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Regina Black Solid';
+    src: url('ReginaBlack-Solid.woff2') format('woff2'),
+        url('ReginaBlack-Solid.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro';
+    src: url('DINPro-Regular.woff2') format('woff2'),
+        url('DINPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    font-family: sans-serif;
+    margin-left: 120px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: grey;
+}
+nav{
+    font-family: Dosis;
+    margin: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    /* background-color: aliceblue; */
+    height: 75px;
+    color: black;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 30px;
+    font-size: larger;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container img{
+    width: 1325px;
+}
+
+.container2{
+    font-family: Dosis;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.about h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.about pre{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.flexbox1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.flexbox1 img{
+    width: 755px;
+    height: 400px;
+}
+
+.flexbox1 div{
+    background-color:rgb(218, 122, 53);
+    width: 455px;
+    text-align: center;
+    font-size: larger;
+}
+
+.flexbox1 div h1{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline solid black;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 30px;
+    width: 20px;
+}
+
+.pic2{
+    align-items: left;
+    font-size: xx-large;
+    margin-left: 230px;
+    margin-top: 30px;
+}
+
+.pic2abt{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    color: grey;
+    margin-top: 20px;
+}
+
+.picture2 img{
+    display: flex;
+    justify-content: center;
+    width: 1070px;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+.box1,.box2,.box3{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    margin-top: 30px;
+}
+
+.message1{
+    font-size: xx-large;
+    margin-left: 220px;
+    margin-top: 30px;
+}
+
+.flexbox2{
+    display: flex;
+    flex-direction: row;
+}
+.container1{
+    margin-left: 220px;
+    margin-top: 50px;
+    font-size: larger;
+    color: grey;
+}
+
+.container3 img{
+    width: 420px;
+    height: 480px;
+    margin-left: 80px;   
+}
+
+.flexbox3{
+    display: flex;
+    flex-direction: row;
+}
+
+.container5{
+    margin-left: 80px;
+    margin-top: 80px;
+    font-size: larger;
+    color: grey;
+}
+ .container5 h1{
+     color: black;
+     margin-bottom: 30px;
+ }
+
+.container4 img{
+    width: 420px;
+    height: 480px;
+    margin-left: 200px; 
+    margin-top: 50px;  
+}
+
+.flexbox4
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.container7{
+    margin-left: 120px;
+    margin-top: 50px;
+    font-size: larger;
+    color: grey;
+}
+
+.container7 h1{
+    color: black;
+}
+
+.container6 img{
+    width: 420px;
+    height: 220px;
+    margin-left: 150px; 
+    margin-top: 100px;  
+}
+
+.container8,.container10, .container11,.container12{
+    margin-top: 30px;
+    margin-left: 230px;
+    color: grey;
+    font-size: larger;
+}
+
+.container9{
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.container8 h1, .container11 h1{
+    color: black;
+}
+
+
+.container11 img {
+    display: flex;
+    justify-content: center;
+    width: 1150px;
+}
+
+.form div{
+    display: flex;
+    background-color: grey;
+    height: 75px;
+    justify-content: center;
+}
+
+.btn{
+    margin: 10px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text{
+    margin: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    color: red;
+    margin: 10px;
+    margin-left: 80px;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+.about{
+    margin-left: -10px;
+    margin-top: 30px;
+    color: black;
+    font-family: Dosis;
+}
+
+#phone{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.faq{
+    color: black;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+#icons img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* display: flex;
+    justify-content: right;
+    flex-direction: row; */
+}
+
+.blog{
+    color: black;
+    margin-left: -340px;
+    margin-top: 25px;
+}
+
+.feedback{
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.feedback submit-feedback{
+    color: red;
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-size: medium;
+    margin-top: 20px;
+}
+

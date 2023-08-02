@@ -1,0 +1,201 @@
+body { margin:0px; padding: 0px;}
+.tot h1 { width:100%; height: 60px; line-height: 60px; font-size: 26px; color:#fff; background: #beb9a5;  text-align: center; letter-spacing: 2px; font-weight: 500;}
+h1.sdd {     font-family: 'Regina Black Solid' !important; width:90%; margin: 130px 5% 20px;}
+h1.sdds {  font-family: 'Lato' !important; width:90%; margin: 20px 5%; float: left;}
+.tot .btn { height:50px; line-height: 50px; float: right; margin: 20px 0px; background:#beb9a5; color: #fff; cursor: pointer; text-align: center; padding: 0px 25px; font-family: 'Lato'; }
+Section#banner { height:650px; width:90%; background: url("../images/banner.jpg") no-repeat; background-size: contain; float: left; margin: 100px 5% 0; }
+Section#banner .boxx { width: 42%; float: right; height: 100%; margin-right: 5%;}
+Section#banner .boxx .tradi { width:100%; height: 60%; } 
+Section#banner .boxx .tradi img { width:100%; background-size: contain; margin: 5% auto 20px; display: block;}
+Section#banner .boxx h2 { font-size:20px; text-align: center; color: #555533; font-family: 'Lato'; font-weight: 400;}
+Section#banner .boxx h3 { font-size:24px; text-align: center; text-transform: uppercase; margin-top: 0px; padding-top: 0px; color: #bf6d3d; font-family: 'Lato'; font-weight: 400;}
+section#productcat { height:auto; width: 90%; margin: 20px 5% 0px;  float: left; }
+section#productcat .lsbx { width:23%; float: left; height: auto; overflow: hidden;}
+section#productcat .lsbx img { width:100%; background-size: contain; transition-duration: 2s;}
+section#productcat .lsbx .ovr {display:none;}
+section#productcat .lsbx:hover .ovr { background: rgba(0,0,0,0.8); width:100%;  position: relative; display: block; height: 100%; min-height: 325px; margin-top: -125% !important;}
+section#productcat .lsbx:hover .ovr h4 { color:#fff; text-align: center; padding-top: 40%; font-size: 40px; font-family: 'DINPro';}
+section#productcat .lsbx:hover img { transform: scale(1.3,1.3) rotate(5deg); }
+section#productcat .mar { margin-right:2.666666666666667%;}
+section#inall { width:90%; margin: 0px 5%; float: left; }
+section#inall .contain { margin:20px 0px; padding: 2%; border: 1px solid #b1b2ad; float: left;  width: 96%;}
+section#inall .contain .bx { width:60%; float: left; height: auto; }
+section#inall .contain .bx  img  { width:100%; background-size: contain;}
+section#inall .contain .bxs { width:30%; float: right; height: auto; }
+section#inall .contain .bxs h2 {font-size:24px; text-align: left; line-height: 32px; color: #555533; font-family: 'Lato'; font-weight: 400; margin-top: 5%;}
+section#inall .contain .bxs h3 { font-size:24px; text-align: left; text-transform: uppercase; margin-top: 0px; padding-top: 0px; color: #bf6d3d; font-family: 'Lato'; font-weight: 400;}
+.clear { height:50px; float: left; width: 100%; clear: both;}
+section#banner1 { height:650px; width:90%; background: url("../images/banner1.jpg") no-repeat; background-size: contain; float: left; margin: 100px 5% 0; }
+
+section#terms { height: auto; width:90%; margin: 20px 5%; float: left; background: #f5f5eb; padding-bottom: 20px;  float: left; }
+section#terms p { font-size: 18px; letter-spacing: .5px; width:90%; padding:0px 5%;  line-height: 30px; margin-bottom: 15px; color: #a8a192; }
+section#terms h2  { width:100%; padding:10px 5%; height: auto; margin: 0px; line-height: normal; font-size: 26px; color:#fff; background: #beb9a5; text-align: left; color: #fff; font-family: 'Lato'; font-weight: 400;}
+section#terms .btn { height:50px; line-height: 50px; float: left; margin: 20px 0px; border:#beb9a5 1px solid; color: #beb9a5; text-align: center; padding: 0px 25px; font-family: 'Lato'; font-weight: 400; background-color: transparent; margin-left: 5%;}
+
+section#story { height:auto; width:90%; margin: 0px 5%; float: left; }
+section#story .bxxd { width:32%; float: left; background: #f3f3e9; min-height: 350px;}
+section#story .mar { margin-right: 2%;}
+section#story .bxxd p { text-align:center; color: #aeaea4; font-size: 22px;}
+section#banner2 { height:450px; width:90%; background: url("../images/banner2.jpg") no-repeat; background-size: contain; float: left; margin: 100px 5% 20px; }
+section#plist { height: auto; width: 90%; margin: 20px 5%; float: left; }
+section#plist .bxxa  { width:32%; float: left; /*background:;*/ min-height: 200px; margin-bottom: 2%; overflow: hidden; }
+section#plist .bxxa  img { width:100%; background-size: contain;  transition-duration: 2s;}
+section#plist .bxxb  { width:66%; float: left; background: #b7b1a5; min-height: 200px; margin-bottom: 2%; min-height: 430px;}
+section#plist .bxxb h2 {color:#fffef8; font-size: 25px; text-align: center; line-height: 34px; margin-top: 12%; font-weight: 400;  font-family: 'DINPro';}
+section#plist .bxxb h3 { font-size:24px; text-align: center; text-transform: uppercase; margin-top: 0px; padding-top: 0px; color: #bf6d3d; font-family: 'Lato'; font-weight: 400;}
+section#plist .mar { margin-right: 2%;}
+section#plist .bxxa .ovr {display:none;}
+section#plist .bxxa:hover .ovr { background: rgba(0,0,0,0.8); width:100%;  position: relative; display: block; height: 100%; min-height: 490px; margin-top: -125% !important;}
+section#plist .bxxa:hover .ovr h4 { color:#fff; text-align: center; padding-top: 40%; font-size: 40px; font-family: 'DINPro';}
+section#plist .bxxa:hover img { transform: scale(1.3,1.3) rotate(5deg); }
+.dsgn { height:20px; width:50px; margin:10px auto; display: block;}
+.dsgn  img { width:100%; background-size: contain;}
+.tot ol { width:90%; padding: 20px 5%; }
+.tot ol li { font-size:15px; color: #a8a192; line-height: 22px; margin-bottom: 12px;     font-family: 'DINPro';}
+ .tot ol li span { color: red;}
+.more { display: none; transition-duration: 5s;}
+.more1 { display: block; transition-duration: 5s;}
+
+
+@media screen and (max-width:768px) {
+	
+	Section#banner { height:auto; background: url("../images/banner-mob.jpg") no-repeat #f2f2f0; background-size: contain;}
+	Section#banner .boxx { width:70%; margin: 60% 15% 0px;}
+	Section#banner .boxx h2 { font-size:20px;}
+	Section#banner .boxx h3 { font-size:20px;}
+	section#productcat .lsbx { width:100%; margin-bottom: 2%;}
+	section#productcat .mar { margin-right:0px;}
+	section#inall .contain .bx { width:100%; margin-bottom: 2%;}
+	section#inall .contain .bxs { width:100%;}
+	section#inall .contain .bxs h2 { font-size:20px; margin-top: 20px;}
+	section#inall .contain .bxs h3  { font-size:20px;}
+	section#productcat .lsbx:hover .ovr { min-height:400px;}
+	section#productcat .lsbx:hover .ovr h4 { font-size:24px; }
+	.tot h1 { font-size:20px;}
+	section#banner2 { background:url("../images/banner2-mob.jpg") no-repeat; height: auto; min-height: 200px; background-size: contain;}
+	section#plist .bxxa { width:100%; margin-bottom: 2%;}
+	section#plist .bxxa:hover .ovr { min-height:400px;}
+	section#plist .bxxa:hover .ovr h4 { font-size:24px; }
+	section#plist .bxxb { width:100%}
+	section#plist .bxxb h2   { font-size:20px; line-height: 28px;}
+	section#plist .bxxb h3 { font-size:20px; line-height: 28px;}
+	h1.sdd { height:auto; font-size: 20px !important; line-height: 38px;}
+	section#banner1 { height:320px; background-size: cover; background-position: bottom center;}
+	section#terms h2 { font-size:20px;}
+	section#story .bxxd {width:100%; margin-bottom: 2%;}
+	section#story .mar {margin-right:0px;}
+}
+
+
+@media screen and ( min-width:1300px) and (max-width:1400px) {
+
+
+	section#plist .bxxa:hover .ovr { min-height:435px;}
+	section#plist .bxxb { min-height:395px;}
+	section#productcat .lsbx:hover .ovr  { min-height:300px;}
+
+
+
+
+}
+
+
+
+@media screen and ( min-width:1200px) and (max-width:1300px) {
+	Section#banner { height:550px; background-size:cover;}
+	Section#banner .boxx h2 { font-size:22px;}
+		section#plist .bxxa:hover .ovr { min-height:420px;}
+	section#plist .bxxa:hover .ovr h4 { font-size:24px; }
+		section#productcat .lsbx:hover .ovr { min-height:300px;}
+	section#productcat .lsbx:hover .ovr h4 { font-size:24px; }
+      section#plist .bxxb { min-height:365px;}
+	section#banner1 { height:550px; background-size:cover;}
+	section#banner2 { height:380px; }
+}
+
+@media screen and ( min-width:1100px) and (max-width:1200px) {
+	Section#banner { height:450px; background-size:cover;}
+	Section#banner .boxx h2 { font-size:20px;}
+		section#plist .bxxa:hover .ovr { min-height:360px;}
+	section#plist .bxxa:hover .ovr h4 { font-size:24px; }
+		section#productcat .lsbx:hover .ovr { min-height:240px;}
+	section#productcat .lsbx:hover .ovr h4 { font-size:24px; }
+      section#plist .bxxb { min-height:315px;}
+	section#banner1 { height:450px; background-size:cover;}
+	section#banner2 { height:350px; }
+	section#inall .contain .bxs h2 { font-size:24px;}
+	section#inall .contain .bxs h3  { font-size:20px;}
+}
+
+@media screen and ( min-width:1000px) and (max-width:1100px) {
+	Section#banner { height:450px; background-size:cover;}
+	Section#banner .boxx h2 { font-size:20px;}
+		section#plist .bxxa:hover .ovr { min-height:320px;}
+	section#plist .bxxa:hover .ovr h4 { font-size:24px; }
+		section#productcat .lsbx:hover .ovr { min-height:220px;}
+	section#productcat .lsbx:hover .ovr h4 { font-size:24px; }
+      section#plist .bxxb { min-height:315px;}
+	section#banner1 { height:450px; background-size:cover;}
+	section#banner2 { height:350px; }
+	section#inall .contain .bxs h2 { font-size:24px;}
+	section#inall .contain .bxs h3  { font-size:20px;}
+}
+
+@media screen and ( min-width:900px) and (max-width:1000px) {
+	Section#banner { height:350px; background-size:cover;}
+	Section#banner .boxx h2 { font-size:20px;}
+		section#plist .bxxa:hover .ovr { min-height:280px;}
+	section#plist .bxxa:hover .ovr h4 { font-size:24px; }
+		section#productcat .lsbx:hover .ovr { min-height:190px;}
+	section#productcat .lsbx:hover .ovr h4 { font-size:24px; }
+      section#plist .bxxb { min-height:255px;}
+	section#banner1 { height:350px; background-size:cover;}
+	section#banner2 { height:300px; }
+	section#inall .contain .bxs h2 { font-size:24px;}
+	section#inall .contain .bxs h3  { font-size:20px;}
+	section#plist .bxxb h2 { font-size:20px; line-height: 26px; margin-top: 5%;}
+	Section#banner .boxx { width:40%;}
+	Section#banner .boxx h2 { font-size:18px;}
+	Section#banner .boxx h3 { font-size:18px;}
+}
+
+@media screen and ( min-width:769px) and (max-width:900px) {
+	Section#banner { height:350px; background-size:cover;}
+	Section#banner .boxx h2 { font-size:20px;}
+		section#plist .bxxa:hover .ovr { min-height:250px;}
+	section#plist .bxxa:hover .ovr h4 { font-size:24px; }
+		section#productcat .lsbx:hover .ovr { min-height:170px;}
+	section#productcat .lsbx:hover .ovr h4 { font-size:24px; }
+      section#plist .bxxb { min-height:225px;}
+	section#banner1 { height:350px; background-size:cover;}
+	section#banner2 { height:240px; }
+	section#inall .contain .bxs h2 { font-size:20px; margin-top: 40%;}
+	section#inall .contain .bxs h3  { font-size:20px;}
+	section#plist .bxxb h2 { font-size:20px; line-height: 26px; margin-top: 5%;}
+	Section#banner .boxx { width:40%;}
+	Section#banner .boxx h2 { font-size:18px;}
+	Section#banner .boxx h3 { font-size:18px;}
+	section#inall .contain .bxs { width:35%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

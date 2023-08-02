@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    font-family: sans-serif;
+    margin-left: 120px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: grey;
+}
+nav{
+    font-family: Dosis;
+    margin: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    /* background-color: aliceblue; */
+    height: 75px;
+    color: black;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 30px;
+    font-size: larger;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    font-family: Dosis;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.box h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box pre{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-top: 10px;
+    color: grey;
+    
+}
+
+.brands{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#candere-brand{
+    display: flex;
+    justify-content: center;
+}
+
+.form div{
+    display: flex;
+    background-color: grey;
+    height: 75px;
+    justify-content: center;
+}
+
+.btn{
+    margin: 10px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text{
+    margin: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    color: red;
+    margin: 10px;
+    margin-left: 80px;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+.about{
+    margin-left: -10px;
+    margin-top: 30px;
+    color: black;
+    font-family: Dosis;
+}
+
+#phone{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.faq{
+    color: black;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+#icons img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* display: flex;
+    justify-content: right;
+    flex-direction: row; */
+}
+
+.blog{
+    color: black;
+    margin-left: -340px;
+    margin-top: 25px;
+}
+
+.feedback{
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.feedback submit-feedback{
+    color: red;
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+

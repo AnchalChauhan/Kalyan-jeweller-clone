@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    font-family: sans-serif;
+    margin-left: 120px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: grey;
+}
+nav{
+    font-family: Dosis;
+    margin: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 75px;
+    color: black;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 30px;
+    font-size: larger;
+}
+
+.container,.container1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container img{
+    width: 1150px;
+    margin-top: 30px;
+}
+
+.container2{
+    font-family: Dosis;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.flexbox1, .flexbox6{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox1 img{
+    width: 500px;
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+.container3, .container11{
+    /* display: flex; */
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 80px;
+    color: grey;
+    font-size: larger;
+}
+
+.container4 h2, .container8 h2, .container12 h2, .container16 h2{
+    margin-left: 180px;
+}
+
+.flexbox2 , .flexbox5{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: larger;
+}
+
+.flexbox3 {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    margin-left: 1200px;
+}
+
+.flexbox3 div img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.flexbox4, .flexbox8{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox4 img, .flexbox8 img{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.container7, .container15{
+    /* display: flex; */
+    justify-content: center;
+    margin-left: 180px;
+    margin-top: 80px;
+    color: grey;
+    font-size: larger;
+}
+
+.flexbox6 img{
+    width: 477px;
+    height: 500px;
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+.flexbox7, .flexbox8{
+    color: grey;
+    /* margin-left: 30px; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* margin-top: 30px; */
+    font-size: larger;
+}
+
+.container13, .container14{
+    margin-top: 30px;
+    margin-left: 180px;
+    margin-right: 180px;
+    color: black;
+}
+
+.container17, .container18{
+    margin-top: 30px;
+    margin-left: 180px;
+    color: black;
+}
+
+.form div{
+    display: flex;
+    background-color: grey;
+    height: 75px;
+    justify-content: center;
+}
+
+.btn{
+    margin: 10px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text{
+    margin: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    color: red;
+    margin: 10px;
+    margin-left: 80px;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+.about{
+    margin-left: -10px;
+    margin-top: 30px;
+    color: black;
+    font-family: Dosis;
+}
+
+#phone{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.faq{
+    color: black;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+#icons img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* display: flex;
+    justify-content: right;
+    flex-direction: row; */
+}
+
+.blog{
+    color: black;
+    margin-left: -340px;
+    margin-top: 25px;
+}
+
+.feedback{
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.feedback submit-feedback{
+    color: red;
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+
+
+
+
